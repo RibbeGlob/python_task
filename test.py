@@ -32,6 +32,7 @@ class TestCheckUpdates(unittest.TestCase):
         which_type = 'software'
         stage = 'beta'
         result = check_available_updates(dane, current_version, which_type, stage)
+        print("Dostępna aktualizacja:" + result)
         self.assertEqual(result, '1.0.6')
 
     def test_none_updates(self):
@@ -56,6 +57,7 @@ class TestCheckUpdates(unittest.TestCase):
         current_version = '1.0.4'
         which_type = 'software'
         result = check_available_updates(dane, current_version, which_type)
+        print(result)
         self.assertIsNone(result)
 
 
