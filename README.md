@@ -1,7 +1,7 @@
 # python_task
 
 ## Wstęp
-Aplikacja do sprawdzenia możliwych aktualizacji oprogramowania to narzędzie wiersza poleceń napisane w języku Python. Umożliwia ona pobranie aktualizacji oprogramowania (software oraz firmware) z zewnętrznego serwera. Aplikacja oferuje tryb testowy dla sprawdzenia działania najważniejszych bloków kodu. Jeżeli potrzebujesz jedynie modułu odpowiedzialnego za sprawdzanie dostępnych aktualizacji pobierz plik "update.py"
+Aplikacja do sprawdzenia możliwych aktualizacji oprogramowania to narzędzie wiersza poleceń napisane w języku Python. Umożliwia ona pobranie aktualizacji oprogramowania (software oraz firmware) z zewnętrznego serwera. Aplikacja oferuje tryb testowy dla sprawdzenia działania najważniejszych bloków kodu. Jeżeli istnieje potrzeba posiadania jedynie modułu odpowiedzialnego za sprawdzanie dostępnych aktualizacji pobierz plik "update.py"
 
 ## Wymagania
 - Python
