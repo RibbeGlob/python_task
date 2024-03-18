@@ -168,7 +168,7 @@ def available_updates(available, data):
     while True:
         chosen_stage = input("Wybierz etap aktualizacji (stable/beta/long_term): ").strip()
         if chosen_stage in available:
-            decision = input(f"Czy chcesz przeprowadzić aktualizację {chosen_stage}? (tak/nie): ").strip().lower()
+            decision = input(f"Czy chcesz pobrać aktualizację {chosen_stage}? (tak/nie): ").strip().lower()
             if decision == "tak":
                 download_manager(chosen_stage, data, available)
                 break
