@@ -14,7 +14,7 @@ parser.add_argument('--test', action='store_true', help='Uruchom wbudowane testy
 args = parser.parse_args()
 
 if __name__ == "__main__":
-    if args.subtract:
+    if args.test:
         loader = unittest.TestLoader()            # Załaduj i uruchom testy jednostkowe
         suite = loader.loadTestsFromModule(test)  # Załaduj wszystkie testy
         unittest.TextTestRunner().run(suite)
