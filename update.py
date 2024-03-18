@@ -184,7 +184,7 @@ def main(current_firmware, current_software):
     Główna funkcja programu
     Konieczne jest umiejscowienie prawidłowego adresu w zaznaczonym miejscu, w innym wypadku program nie będzie działał
     """
-    data = download_json('https://update.aco.com.pl/BramkaIPv2/description.json')   # Tutaj umieść prawidłowy url
+    data = download_json('your_url')   # Tutaj umieść prawidłowy url
     if data is None:
         print("Nie udało się pobrać danych o aktualizacji")
         try:
